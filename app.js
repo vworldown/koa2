@@ -4,7 +4,7 @@ const port = 9000;
 // 跨域
 const cors = require("koa2-cors");
 // 静态资源
-const static = require("koa-static");
+// const static = require("koa-static");
 
 // 配置跨域（一定要在路由之前）
 app.use(cors());
